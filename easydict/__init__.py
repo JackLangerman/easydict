@@ -31,6 +31,8 @@ class EasyDict(dict):
     >>> d = {'a': 1}
     >>> EasyDict(**d)
     {'a': 1}
+    >>> EasyDict((('a', 1), ('b', 2)))
+    {'a': 1, 'b': 2}
 
     Set attributes
 
